@@ -439,9 +439,10 @@ a{
 .Qa {
    
     font-family: 'Lexend Deca', sans-serif ;
-    padding-top: 15%;
+    padding-top: 15%; 
     padding-bottom: 2em;
-    padding-left: 3% ;
+    padding-left: 2% ;
+    color: aliceblue;
    
 }
 
@@ -529,3 +530,4 @@ width: auto;
 .footer__form h3 {
      font-size:20px ;  
 }
+
