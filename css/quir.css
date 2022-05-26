@@ -27,104 +27,99 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items:center;
-    padding: 0.5%;
     z-index: 10; 
     position: fixed;
     background-color: rgba(0, 0, 0, 0.787);
     flex-direction:row ;
-    height: fit-content;
-    width: 100%;
-    font-size: 20px;
+    width: 100vw;
+    font-size: 1.5rem;
+    font-family: 'Lexend Deca', sans-serif; 
+    height: 22%;
+    
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    float: left;
-    height: fit-content;
-    margin-left: 20px;
     cursor: pointer;
 }
 
-.logo img {
-    height: fit-content;
-}
 
 
 .descargas{
-    
-    display: flex;
-    text-decoration: none;
-    flex-direction: row;
-    
+    padding-left: 250px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+    text-align: center;
     align-items: center;
-    padding-left: 450px;
-    
-}
-
-.descargas h4 {
-    display: flex;
-    justify-content: center;
-    
-     
-    border-style: solid;
-    border-color:a zure ;
-    border-radius: 20px;
-    padding: 4px;
-    
 }
 
 
-.descargas a:hover{
-    color: rgb(70, 133, 189);
+.navbar2 {
+    width: 600px;
+    display: grid ;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 30px;
+    align-items: center;
+    justify-items: center;
+    padding-left: 40px;
 }
-
-.logoappstore {
-   position: relative;
-    padding: 60px;
-   
-}
-
-.logoplaystore {
-    
-    padding: 20px;
-
-}
-
-nav a { 
-   
-
-    font-weight: 600;
-    padding: 10px;
-   
-
-}
-
-a{
-    text-decoration: none;
-    color: aliceblue;
-}
-
-
-
 
 
 .nav_link {
-    color: aliceblue;
+    
+    color: #cfcbb8;
     text-decoration: none;
+    font-size: 25px;
     transition: transform 5s;
+    text-decoration :overline;
 }
 
 .nav_link:hover {
     color: rgb(221, 255, 127);
-    font-size: 22px;
+    font-size: 28px;
     transform: scale(2);
 }
 
-.nave {
-    display:row;
-    flex-direction: row; 
+
+
+.logoappstore {
+   position: relative;
+  align-items: center;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.logoplaystore {
+    position: relative;
+    padding: 20px;
+    padding-bottom: 30px;
+    align-items: center;
+
+}
+
+#descargasgratis {
+    color: rgb(255, 255, 255);
+    text-decoration-line: none;
+    text-decoration: none;
+    font-style: normal;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+.navbar{
+    display: flex;
+    flex: row;
     float: left;
+}
+
+@media screen and (max-width:767px) and (max-width:500px){
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /*
@@ -377,23 +372,6 @@ a{
 
 
 
-@media all and (max-width :800px) {
-
-   .containersection1_nosotrxs , .containersection2 {
-        display:flex;
-        flex-direction: column;
-        gap: 20px;
-        float: initial;
-        justify-self: center;
-        align-self: center;
-    }
-
-}
-
-
-.carousel {
-    padding-top: 300px;
-}
 
 
 /*
@@ -435,25 +413,30 @@ a{
 }
 */ 
 
+.sss { background-color: rgba(121, 85, 37, 0);
 
+}
 .Qa {
-   
     font-family: 'Lexend Deca', sans-serif ;
     padding-top: 15%; 
     padding-bottom: 2em;
-    padding-left: 2% ;
-    color: aliceblue;
+    padding-left: 5% ;
+    color: rgba(0, 0, 0, 0.981);
+    
+    
+}
+.Qa:hover {
+    color: black;
    
 }
 
 
-
 .accordion {
-     width: 100%;
-    padding-right: 3%;
-    padding-left: 3%;
     
-    padding-bottom: 5%;
+        width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 2%;
     font-family:'Lexend Deca', sans-serif ;
 }
 
@@ -472,15 +455,11 @@ a{
 }
 
 .accordion-button.collapsed {
-    background-color: #ffc107; 
-   }
+    background-color: #ffc107; }
 
 .accordion-button {
     background-color: rgb(255, 255, 255);
 }
-
-
-
 
 
 
@@ -491,7 +470,7 @@ footer {
     flex-direction: row;
     width: 100vw;
     height: 60%; 
-    font-size: 20px;
+    font-size: 15px;
     color: azure; 
     background-color: rgb(71, 40, 40);    
  
@@ -530,4 +509,16 @@ width: auto;
 .footer__form h3 {
      font-size:20px ;  
 }
+
+
+
+
+
+.carousel {
+    padding-top: 50px;
+}
+
+
+
+
 

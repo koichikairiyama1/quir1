@@ -14,25 +14,39 @@
 <body>
 
 <div>   
-    <header> 
-        <div class="logo animate__flipInX ">  
+   <header class="navbar navbar-expand-lg "> 
+
+     <div class="logo animate__flipInX ">  
                 <a  href="/index.html" >
-                    <img  class="animate__animated animate__flipInX" src="/imagenes/Imagen 1.png" alt="QuirApp_Logo">
+                    <img  class="animate__animated animate__flipInX" src="/imagenes/Imagen 1.png" alt="QuirApp_Logo" height="150px">
                 </a>    
         </div>
-        <div>
+        
+        <div class="navbar">
             <nav  class="animate__animated animate__fadeInUp">
+            <nav class="navbar2">
+                <div>
                 <a href="/index.html" class="nav_link">Inicio</a>
+                </div>
+                <div>
                 <a href="nosotrxs.html" class="nav_link" >Nosotrxs</a>
-                <a href="q-a.html"  class="nav_link">Q&A</a>
+                </div>
+                <div>
+                    <a href="q-a.html"  class="nav_link">Q&A</a>
+                </div>
+                <div>
                 <a href="contacto.html" class="nav_link" >Contacto</a>
+                </div>
+                <div>
                 <a href="info.html" class="nav_link" >Info</a>
+                </div>
+            </nav>
             </nav>
         </div>
         <div class="descargas">
-                <a href="">
-                    <h4>Descarga gratis</h4> 
-                </a>
+            <a href="">
+                <h4 id="descargasgratis">Descarga gratis</h4> 
+            </a> 
                 <a href="https://apps.apple.com/app/quir/id1609907782" class="logoappstore">
                     <img src="/imagenes/pngwing.com.png" alt="AppStoreicon" width="40">
                 </a> 
@@ -40,7 +54,10 @@
                     <img src="/imagenes/Google_Play_Arrow_logo 6.png" alt="PlayStoreicon" width="30">
                 </a>
         </div>       
-</header>
+</header> 
+
+
+
 
 <main class="grid2">
    <!-- <section class="section1_q-a">
@@ -87,9 +104,26 @@
         </div>
     </section> -->
 
-    <div class="Qa container-md">
-        <h1 class="animate__animated animate__flash"> Q&A - Preguntas frecuentes</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    <div class="sss">
+    <div class="Qa">
+        <h1 class="animate__animated animate__flash"  id="qa"> Q&A - Preguntas frecuentes</h1>
     </div>
+</div>
 
                 
 
@@ -97,7 +131,7 @@
                    
                     <div class="accordion-item ">
                         <h2 class="accordion-header " id="panelsStayOpen-headingOne">
-                            <button class="accordion-button  bg-white  text-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            <button class="accordion-button  bg-white  text-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
                             Accordion Item #1
                             </button>
                         </h2>
@@ -110,7 +144,7 @@
 
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                                <button class="accordion-button collapsed bg-white text-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                <button class="accordion-button collapsed bg-warning text-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                                 Accordion Item #2
                                 </button>
                             </h2>
@@ -136,7 +170,7 @@
 
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-                        <button class="accordion-button collapsed bg-white text-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                        <button class="accordion-button collapsed bg-warning text-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
                             Accordion Item #3
                         </button>
                         </h2>
@@ -163,7 +197,7 @@
 
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingSix">
-                            <button class="accordion-button collapsed bg-white text-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsesix" aria-expanded="false" aria-controls="panelsStayOpen-collapsesix">
+                            <button class="accordion-button collapsed bg-warning text-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsesix" aria-expanded="false" aria-controls="panelsStayOpen-collapsesix">
                             Accordion Item #3
                             </button>
                         </h2>
@@ -188,24 +222,53 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingEight">
-                            <button class="accordion-button collapsed bg-white black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseEight">
+                            <button class="accordion-button collapsed bg-warning black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseEight">
                             Accordion Item #3
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight">
-                            <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
+                        <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
                         </div>
                     </div>
                 </div>
 
-              
-        
-                
-
-
  </main>
+
+
+
+ <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="/imagenes/maple-g45ea16a39_1920.jpg" class="d-block w-100" alt="...">
+        
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="/imagenes/maple-g45ea16a39_1920.jpg" class="d-block w-100" alt="...">
+        
+      </div>
+      <div class="carousel-item">
+        <img src="/imagenes/maple-g45ea16a39_1920.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
 
 
 
